@@ -1,71 +1,100 @@
-*{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
 }
 
-body{
-  font-family: 'Lato', sans-serif;  
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #000000;
+	text-align: center;
 }
 
-.row{
-  width: 100%;
+body {
+	background-image: url("background.jpg");
+	background-color: #FEF5CA;
+
 }
 
-.menu-title{
-  text-align: center;
-  margin-bottom: 30px;
+p {
+	padding: 10px;
+	margin: 0;
 }
 
-.container{
- position: relative;
- top:60px;
- margin: 15px; 
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
-.item{
-  position: relative;
-  top: 0;
-  background-color:#999999;
-  margin: 15px;
-  padding: 25px;
-  border: 3px solid #000;
+section {
+	border:	1px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: 200px;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
 }
 
-.item p{
-  margin-top: 18px;
-  text-align: justify;
-  font-size:100%;
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
 }
 
-.item-title{
-  position: absolute;
-  top:0;
-  right: 0px;
-  background: green; 
-  padding: 6px 90px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
 }
 
-#title-one {
-  background-color: #D59898;
-} 
-
-#title-two{
-  background-color: #C14543;
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
+	padding: 5px;
 }
 
-#title-three{
-  background-color: #E5D198;
+.row {
+	width: 100%;
 }
 
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
-@media (min-width: 992px){
+/* Desktop view */
+
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;  
+    float: left;
   }
+
   .col-lg-1 {
     width: 8.33%;
   }
